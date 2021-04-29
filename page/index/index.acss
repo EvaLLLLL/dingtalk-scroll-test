@@ -1,0 +1,20 @@
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading {
+  margin: auto
+}
+
+.item {
+  background: skyblue;
+  height: 300px;
+  width: 300px;
+  margin: 10px 0;
+}
+
+.container {
+  height: 300px;
+}

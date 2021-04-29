@@ -1,0 +1,11 @@
+<view class="page">
+
+  <loading a:if="{{isLoading}}" class="loading"/>
+
+  <scroll-view a:else style="height: 80vh;border: 1px solid red" scroll-y onScrollToLower="onScrollToLower" enable-back-to-top="true" lower-threshold="600">
+    <list loadMore="{{loadMore}}" loadContent="{{loadContent}}">
+      <list-item a:for="{{list}}" a:key="{{item}}" class="item">{{item}}</list-item>
+    </list>
+  </scroll-view>
+
+</view>
